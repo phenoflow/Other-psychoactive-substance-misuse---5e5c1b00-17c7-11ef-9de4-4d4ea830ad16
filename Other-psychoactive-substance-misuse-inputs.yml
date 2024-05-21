@@ -1,0 +1,207 @@
+inputModule1:
+  class: File
+  path: js/read-potential-cases-i2b2.js
+inputModule2:
+  class: File
+  path: python/episodic-other-psychoactive-substance-misuse---primary.py
+inputModule3:
+  class: File
+  path: python/other-psychoactive-substance-misuse-behaviour---primary.py
+inputModule4:
+  class: File
+  path: python/other-psychoactive-substance-misuse-dependence---primary.py
+inputModule5:
+  class: File
+  path: python/other-psychoactive-substance-misuse-drugrelated---primary.py
+inputModule6:
+  class: File
+  path: python/adverse-other-psychoactive-substance-misuse---primary.py
+inputModule7:
+  class: File
+  path: python/other-psychoactive-substance-misuse-infrequent---primary.py
+inputModule8:
+  class: File
+  path: python/previous-other-psychoactive-substance-misuse---primary.py
+inputModule9:
+  class: File
+  path: python/continuous-other-psychoactive-substance-misuse---primary.py
+inputModule10:
+  class: File
+  path: python/other-psychoactive-substance-misuse-amfetamine---primary.py
+inputModule11:
+  class: File
+  path: python/other-psychoactive-substance-misuse-cocaine---primary.py
+inputModule12:
+  class: File
+  path: python/other-psychoactive-substance-misuse-misuser---primary.py
+inputModule13:
+  class: File
+  path: python/other-psychoactive-substance-misuse-specified---primary.py
+inputModule14:
+  class: File
+  path: python/other-psychoactive-substance-misuse-hypnotics---primary.py
+inputModule15:
+  class: File
+  path: python/other-psychoactive-substance-misuse-heroin---primary.py
+inputModule16:
+  class: File
+  path: python/other-psychoactive-substance-misuse-treatment---primary.py
+inputModule17:
+  class: File
+  path: python/other-psychoactive-substance-misuse-maintenance---primary.py
+inputModule18:
+  class: File
+  path: python/other-psychoactive-substance-misuse-hallucinatory---primary.py
+inputModule19:
+  class: File
+  path: python/other-psychoactive-substance-misuse-opiate---primary.py
+inputModule20:
+  class: File
+  path: python/clinical-other-psychoactive-substance-misuse---primary.py
+inputModule21:
+  class: File
+  path: python/other-psychoactive-substance-misuse-sniffing---primary.py
+inputModule22:
+  class: File
+  path: python/other-psychoactive-substance-misuse-disordr---primary.py
+inputModule23:
+  class: File
+  path: python/other-psychoactive-substance-misuse-cannabis---primary.py
+inputModule24:
+  class: File
+  path: python/other-psychoactive-substance-misuse-hallucinogens---primary.py
+inputModule25:
+  class: File
+  path: python/other-psychoactive-substance-misuse-benzodiazepine---primary.py
+inputModule26:
+  class: File
+  path: python/other-psychoactive-substance-misuse-declined---primary.py
+inputModule27:
+  class: File
+  path: python/other-psychoactive-substance-misuse-stimulant---primary.py
+inputModule28:
+  class: File
+  path: python/other-psychoactive-substance-misuse-buprenorphine---primary.py
+inputModule29:
+  class: File
+  path: python/other-psychoactive-substance-misuse-stopped---primary.py
+inputModule30:
+  class: File
+  path: python/other-psychoactive-substance-misuse-abuse---primary.py
+inputModule31:
+  class: File
+  path: python/other-psychoactive-substance-misuse-counselling---primary.py
+inputModule32:
+  class: File
+  path: python/referral-other-psychoactive-substance-misuse---primary.py
+inputModule33:
+  class: File
+  path: python/other-psychoactive-substance-misuse-antidepressant---primary.py
+inputModule34:
+  class: File
+  path: python/other-psychoactive-substance-misuse-druginduced---primary.py
+inputModule35:
+  class: File
+  path: python/other-psychoactive-substance-misuse-reinduction---primary.py
+inputModule36:
+  class: File
+  path: python/other-psychoactive-substance-misuse-remission---primary.py
+inputModule37:
+  class: File
+  path: python/other-psychoactive-substance-misuse-harmfl---primary.py
+inputModule38:
+  class: File
+  path: python/daily-other-psychoactive-substance-misuse---primary.py
+inputModule39:
+  class: File
+  path: python/anxiolytic-other-psychoactive-substance-misuse---primary.py
+inputModule40:
+  class: File
+  path: python/other-psychoactive-substance-misuse-therapy---primary.py
+inputModule41:
+  class: File
+  path: python/weekly-other-psychoactive-substance-misuse---primary.py
+inputModule42:
+  class: File
+  path: python/other-psychoactive-substance-misuse---primary.py
+inputModule43:
+  class: File
+  path: python/positive-other-psychoactive-substance-misuse---primary.py
+inputModule44:
+  class: File
+  path: python/other-psychoactive-substance-misuse-reaction---primary.py
+inputModule45:
+  class: File
+  path: python/other-psychoactive-substance-misuse-methadone---primary.py
+inputModule46:
+  class: File
+  path: python/other-psychoactive-substance-misuse-crack---primary.py
+inputModule47:
+  class: File
+  path: python/other-psychoactive-substance-misuse-history---primary.py
+inputModule48:
+  class: File
+  path: python/other-psychoactive-substance-misuse-delirium---primary.py
+inputModule49:
+  class: File
+  path: python/other-psychoactive-substance-misuse-tranquilliser---primary.py
+inputModule50:
+  class: File
+  path: python/other-psychoactive-substance-misuse-ecstasy---primary.py
+inputModule51:
+  class: File
+  path: python/other-psychoactive-substance-misuse-amphetamine---primary.py
+inputModule52:
+  class: File
+  path: python/other-psychoactive-substance-misuse-detoxification---primary.py
+inputModule53:
+  class: File
+  path: python/sedative-other-psychoactive-substance-misuse---primary.py
+inputModule54:
+  class: File
+  path: python/initial-other-psychoactive-substance-misuse---primary.py
+inputModule55:
+  class: File
+  path: python/other-psychoactive-substance-misuse-paranoia---primary.py
+inputModule56:
+  class: File
+  path: python/other-psychoactive-substance-misuse-barbiturate---primary.py
+inputModule57:
+  class: File
+  path: python/solvent-other-psychoactive-substance-misuse---primary.py
+inputModule58:
+  class: File
+  path: python/other-psychoactive-substance-misuse-completed---primary.py
+inputModule59:
+  class: File
+  path: python/other-psychoactive-substance-misuse-assessment---primary.py
+inputModule60:
+  class: File
+  path: python/other-psychoactive-substance-misuse-addict---primary.py
+inputModule61:
+  class: File
+  path: python/major-other-psychoactive-substance-misuse---primary.py
+inputModule62:
+  class: File
+  path: python/vpersonal-other-psychoactive-substance-misuse---primary.py
+inputModule63:
+  class: File
+  path: python/other-psychoactive-substance-misuse-activity---primary.py
+inputModule64:
+  class: File
+  path: python/opioid-other-psychoactive-substance-misuse---primary.py
+inputModule65:
+  class: File
+  path: python/other-psychoactive-substance-misuse-substitution---primary.py
+inputModule66:
+  class: File
+  path: python/other-psychoactive-substance-misuse-monitoring---primary.py
+inputModule67:
+  class: File
+  path: python/other-psychoactive-substance-misuse-injects---primary.py
+inputModule68:
+  class: File
+  path: python/substance---primary.py
+inputModule69:
+  class: File
+  path: python/output-cases.py
