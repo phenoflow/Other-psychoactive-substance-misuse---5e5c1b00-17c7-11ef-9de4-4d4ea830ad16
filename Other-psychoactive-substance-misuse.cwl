@@ -330,8 +330,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-stopped---primary/output
-  other-psychoactive-substance-misuse-counselling---primary:
-    run: other-psychoactive-substance-misuse-counselling---primary.cwl
+  referral-other-psychoactive-substance-misuse---primary:
+    run: referral-other-psychoactive-substance-misuse---primary.cwl
     out:
     - output
     in:
@@ -341,8 +341,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-abuse---primary/output
-  referral-other-psychoactive-substance-misuse---primary:
-    run: referral-other-psychoactive-substance-misuse---primary.cwl
+  other-psychoactive-substance-misuse-antidepressant---primary:
+    run: other-psychoactive-substance-misuse-antidepressant---primary.cwl
     out:
     - output
     in:
@@ -351,26 +351,15 @@ steps:
         source: inputModule32
       potentialCases:
         id: potentialCases
-        source: other-psychoactive-substance-misuse-counselling---primary/output
-  other-psychoactive-substance-misuse-antidepressant---primary:
-    run: other-psychoactive-substance-misuse-antidepressant---primary.cwl
+        source: referral-other-psychoactive-substance-misuse---primary/output
+  personal-other-psychoactive-substance-misuse---primary:
+    run: personal-other-psychoactive-substance-misuse---primary.cwl
     out:
     - output
     in:
       inputModule:
         id: inputModule
         source: inputModule33
-      potentialCases:
-        id: potentialCases
-        source: referral-other-psychoactive-substance-misuse---primary/output
-  other-psychoactive-substance-misuse-druginduced---primary:
-    run: other-psychoactive-substance-misuse-druginduced---primary.cwl
-    out:
-    - output
-    in:
-      inputModule:
-        id: inputModule
-        source: inputModule34
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-antidepressant---primary/output
@@ -381,10 +370,10 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule35
+        source: inputModule34
       potentialCases:
         id: potentialCases
-        source: other-psychoactive-substance-misuse-druginduced---primary/output
+        source: personal-other-psychoactive-substance-misuse---primary/output
   other-psychoactive-substance-misuse-remission---primary:
     run: other-psychoactive-substance-misuse-remission---primary.cwl
     out:
@@ -392,7 +381,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule36
+        source: inputModule35
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-reinduction---primary/output
@@ -403,7 +392,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule37
+        source: inputModule36
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-remission---primary/output
@@ -414,7 +403,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule38
+        source: inputModule37
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-harmfl---primary/output
@@ -425,7 +414,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule39
+        source: inputModule38
       potentialCases:
         id: potentialCases
         source: daily-other-psychoactive-substance-misuse---primary/output
@@ -436,7 +425,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule40
+        source: inputModule39
       potentialCases:
         id: potentialCases
         source: anxiolytic-other-psychoactive-substance-misuse---primary/output
@@ -447,7 +436,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule41
+        source: inputModule40
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-therapy---primary/output
@@ -458,7 +447,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule42
+        source: inputModule41
       potentialCases:
         id: potentialCases
         source: weekly-other-psychoactive-substance-misuse---primary/output
@@ -469,7 +458,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule43
+        source: inputModule42
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse---primary/output
@@ -480,7 +469,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule44
+        source: inputModule43
       potentialCases:
         id: potentialCases
         source: positive-other-psychoactive-substance-misuse---primary/output
@@ -491,7 +480,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule45
+        source: inputModule44
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-reaction---primary/output
@@ -502,7 +491,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule46
+        source: inputModule45
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-methadone---primary/output
@@ -513,7 +502,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule47
+        source: inputModule46
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-crack---primary/output
@@ -524,10 +513,21 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule48
+        source: inputModule47
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-history---primary/output
+  other-psychoactive-substance-misuse-druginduced---primary:
+    run: other-psychoactive-substance-misuse-druginduced---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule48
+      potentialCases:
+        id: potentialCases
+        source: other-psychoactive-substance-misuse-delirium---primary/output
   other-psychoactive-substance-misuse-tranquilliser---primary:
     run: other-psychoactive-substance-misuse-tranquilliser---primary.cwl
     out:
@@ -538,7 +538,7 @@ steps:
         source: inputModule49
       potentialCases:
         id: potentialCases
-        source: other-psychoactive-substance-misuse-delirium---primary/output
+        source: other-psychoactive-substance-misuse-druginduced---primary/output
   other-psychoactive-substance-misuse-ecstasy---primary:
     run: other-psychoactive-substance-misuse-ecstasy---primary.cwl
     out:
@@ -671,8 +671,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: other-psychoactive-substance-misuse-addict---primary/output
-  vpersonal-other-psychoactive-substance-misuse---primary:
-    run: vpersonal-other-psychoactive-substance-misuse---primary.cwl
+  other-psychoactive-substance-misuse-counselling---primary:
+    run: other-psychoactive-substance-misuse-counselling---primary.cwl
     out:
     - output
     in:
@@ -692,7 +692,7 @@ steps:
         source: inputModule63
       potentialCases:
         id: potentialCases
-        source: vpersonal-other-psychoactive-substance-misuse---primary/output
+        source: other-psychoactive-substance-misuse-counselling---primary/output
   opioid-other-psychoactive-substance-misuse---primary:
     run: opioid-other-psychoactive-substance-misuse---primary.cwl
     out:
